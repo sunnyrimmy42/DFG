@@ -104,7 +104,7 @@
                 <OutArgument x:TypeArguments="ui:GenericValue">[Strong]</OutArgument>
               </ui:GetVisibleText.Text>
             </ui:GetVisibleText>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[Strong]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[Strong+&quot;hhi&quot;]" />
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="project_finsh" />
           </Sequence>
         </ActivityAction>
